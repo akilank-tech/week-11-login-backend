@@ -59,6 +59,6 @@ app.post("/login", (req, res) => {
 
 
 
-app.listen(5000, () => {
+app.listen(5000,"0.0.0.0", () => {
     console.log("Port 5000 start ....")
 })
